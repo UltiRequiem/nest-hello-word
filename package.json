@@ -1,10 +1,9 @@
 {
   "name": "nest-hello-world",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Learning Nest.",
+  "author": "Eliaz Bobadilla <eliaz.bobadilla@snyder.tech>",
   "private": true,
-  "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
