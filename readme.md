@@ -1,5 +1,7 @@
 ## Hello Nest!
 
+[![codecov](https://codecov.io/gh/UltiRequiem/nest-hello-word/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/nest-hello-word)
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
@@ -10,7 +12,7 @@ $ yarn install
 
 ## Running the app
 
-```bash
+```sh
 # development
 $ yarn run start
 
@@ -21,9 +23,15 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+If you use [Lando](https://lando.dev):
+
+```sh
+lando start
+```
+
 ## Test
 
-```bash
+```sh
 # unit tests
 $ yarn run test
 
@@ -33,3 +41,7 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+
+## Licence
+
+MIT License.
