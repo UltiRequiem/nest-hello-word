@@ -1,0 +1,9 @@
+name: nest-hello-world
+
+services:
+  start:
+    type: node
+    port: 3000
+    build:
+      - yarn
+    command: yarn start:dev
